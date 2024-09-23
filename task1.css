@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:blueviolet;
+}
+.sidebar{
+    background-color: rgb(201, 172, 172);
+    width:20vw;
+    height:140vh;
+}
+.sidebar nav{
+    padding:45px
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size:30px;
+    padding: 33px 0;
+}
+.main{
+    background-color: blueviolet;
+    width:90vw;
+}
+
+.container{
+    display:flex;
+    
+}
+.infocontainer{
+    background-color: pink;
+    height:78vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content:space-around;
+
+}
+.mypic{
+
+}
+.devinfo{
+font-size:10vh;
+}
+.name{
+    font-size:5vh;
+}
+.mypic img{
+    height:78vh;
+}
+.about{
+    font-size: 25px;
+}
+.buttons button{
+    border-radius: 30px;
+    padding: 15px;
+    margin: 10px;
+    color:whitesmoke;
+    background-color:dodgerblue;
+    font-size:21px;
+    font-weight:bold;
+    cursor:pointer;
+   
+
+}
+.buttons button:hover{
+    color:dodgerblue;
+    background-color:whitesmoke;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:darkslategray
+
+}
+.sidebar nav li a:hover{
+    font-size: 40px;
+}
+h1{
+    color:darkorange;
+    text-align: center;
+}
+.name1{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+#copyright{
+    display:flex;
+    justify-content: center;
+}
